@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43013b99-73b9-4060-bb6a-dee46c7be7d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/LPHP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Log/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Log/Mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Log/Redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/LogImplements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/controller.php" />
+    </list>
+    <ignored path="lphp.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lphp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Route.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/Lib/Route.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7003058">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+              <folding>
+                <element signature="e#6#94#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/core/lib/LPHP.php" />
+        <option value="$PROJECT_DIR$/core/Lib/autoload.php" />
+        <option value="$PROJECT_DIR$/core/LPHP.php" />
+        <option value="$PROJECT_DIR$/app/controller/indexController.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Controller.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/views/index.html" />
+        <option value="$PROJECT_DIR$/core/Lib/Config.php" />
+        <option value="$PROJECT_DIR$/app/config/common.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/Log/File.php" />
+        <option value="$PROJECT_DIR$/core/Lib/File.php" />
+        <option value="$PROJECT_DIR$/Logs/2016-09-22-server.log" />
+        <option value="$PROJECT_DIR$/Logs/server-log" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/LogImplements.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/Log/Redis.php" />
+        <option value="$PROJECT_DIR$/Logs/2016-09-22-server-log-redis.log" />
+        <option value="$PROJECT_DIR$/app/config/log.php" />
+        <option value="$PROJECT_DIR$/Logs/2016-09-22-server-log.log" />
+        <option value="$PROJECT_DIR$/app/controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Log.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Route.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hprose" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WWW\lphp\core\Lib\Driver\Log" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WWW\lphp\core\Lib" />
+      <recent name="D:\WWW\lphp\core" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43013b99-73b9-4060-bb6a-dee46c7be7d7" name="Default" comment="" />
+      <created>1474962513342</created>
+      <option name="number" value="Default" />
+      <updated>1474962513342</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <marker date="1475048374054" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475048374054" expanded="true" signature="126:235" placeholder="..." />
+            <marker date="1475048374054" expanded="true" signature="277:494" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="277:902" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="313:325" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="354:389" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="354:494" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="523:899" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="540:569" placeholder="..." />
+            <marker date="1475048374054" expanded="true" signature="686:892" placeholder="..." />
+            <marker date="1475048374054" expanded="true" signature="762:828" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7477064">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/LPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59938836">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <marker date="1474964005985" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1474964005985" expanded="true" signature="143:334" placeholder="..." />
+            <marker date="1474964005985" expanded="true" signature="176:235" placeholder="{...}" />
+            <marker date="1474964005985" expanded="true" signature="244:277" placeholder=" @param $class ..." />
+            <marker date="1474964005985" expanded="true" signature="319:332" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hprose/hprose/src/Hprose/Http/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39602447">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21406728">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3088685">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <marker date="1474967517593" expanded="true" signature="300:337" placeholder="..." />
+            <marker date="1474967517593" expanded="true" signature="343:381" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3853211">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1475030847617" expanded="true" signature="9:103" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475030847617" expanded="true" signature="114:116" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3853211">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1475030530318" expanded="true" signature="9:103" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475030530318" expanded="true" signature="139:2224" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="224:359" placeholder=" @param $name ..." />
+            <marker date="1475030530318" expanded="true" signature="421:1182" placeholder="{...}" />
+            <marker date="1475030530318" expanded="true" signature="529:694" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="700:1171" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="819:1072" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="1078:1157" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="1195:1240" placeholder=" @param $name ..." />
+            <marker date="1475030530318" expanded="true" signature="1293:1819" placeholder="{...}" />
+            <marker date="1475030530318" expanded="true" signature="1349:1407" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="1413:1808" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="1518:1709" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="1715:1794" placeholder="..." />
+            <marker date="1475030530318" expanded="true" signature="1832:1877" placeholder=" @param $name ..." />
+            <marker date="1475030530318" expanded="true" signature="1930:2220" placeholder="{...}" />
+            <marker date="1475030530318" expanded="true" signature="1983:2097" placeholder="{...}" />
+            <marker date="1475030530318" expanded="true" signature="2102:2209" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2016-09-22-server-log-redis.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34250763">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <marker date="1475047726876" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475047726876" expanded="true" signature="103:362" placeholder="..." />
+            <marker date="1475047726876" expanded="true" signature="139:241" placeholder="..." />
+            <marker date="1475047726876" expanded="true" signature="258:360" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2016-09-22-server-log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7003058">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <marker date="1475048374054" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475048374054" expanded="true" signature="126:235" placeholder="..." />
+            <marker date="1475048374054" expanded="true" signature="277:494" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="277:902" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="313:325" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="354:389" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="354:494" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="523:899" placeholder="{...}" />
+            <marker date="1475048374054" expanded="true" signature="540:569" placeholder="..." />
+            <marker date="1475048374054" expanded="true" signature="686:892" placeholder="..." />
+            <marker date="1475048374054" expanded="true" signature="762:828" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6146789">
+          <caret line="30" column="9" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <marker date="1474966843605" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1474966843605" expanded="true" signature="132:682" placeholder="..." />
+            <marker date="1474966843605" expanded="true" signature="210:259" placeholder="{...}" />
+            <marker date="1474966843605" expanded="true" signature="295:681" placeholder="{...}" />
+            <marker date="1474966843605" expanded="true" signature="339:457" placeholder="{...}" />
+            <marker date="1474966843605" expanded="true" signature="462:502" placeholder="..." />
+            <marker date="1474966843605" expanded="true" signature="531:603" placeholder="..." />
+            <marker date="1474966843605" expanded="true" signature="609:673" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6146789">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1475042487672" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475042487672" expanded="true" signature="126:787" placeholder="..." />
+            <marker date="1475042487672" expanded="true" signature="178:613" placeholder="{...}" />
+            <marker date="1475042487672" expanded="true" signature="622:673" placeholder=" 检测文件的路径  如果不存在 则创建 ..." />
+            <marker date="1475042487672" expanded="true" signature="717:786" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44189602">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <marker date="1475048421103" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475048421103" expanded="true" signature="126:936" placeholder="..." />
+            <marker date="1475048421103" expanded="true" signature="267:935" placeholder="{...}" />
+            <marker date="1475048421103" expanded="true" signature="316:367" placeholder="..." />
+            <marker date="1475048421103" expanded="true" signature="373:924" placeholder="..." />
+            <marker date="1475048421103" expanded="true" signature="589:834" placeholder="..." />
+            <marker date="1475048421103" expanded="true" signature="840:914" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Log/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8562691">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <marker date="1475041697215" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475041697215" expanded="true" signature="199:488" placeholder="..." />
+            <marker date="1475041697215" expanded="true" signature="257:318" placeholder="{...}" />
+            <marker date="1475041697215" expanded="true" signature="357:487" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Log/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48623854">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <marker date="1475047141615" expanded="false" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475047141615" expanded="true" signature="200:565" placeholder="..." />
+            <marker date="1475047141615" expanded="true" signature="258:319" placeholder="{...}" />
+            <marker date="1475047141615" expanded="true" signature="358:564" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Log/Mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/LogImplements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42813456">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <marker date="1475046885369" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475046885369" expanded="true" signature="146:188" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7003058">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
