@@ -7,12 +7,104 @@ namespace Composer\Autoload;
 class ComposerStaticInitee64908ba1af9dc9288cd4e00fa09f69
 {
     public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '7a3a3ddf55aa5bdbff2cc90a2e666654' => __DIR__ . '/..' . '/hprose/hprose/src/Hprose.php',
+        'c7359326b6707d98bdc176bf9ddeaebf' => __DIR__ . '/..' . '/catfan/medoo/medoo.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Whoops\\' => 7,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\VarDumper\\' => 28,
+            'Sirius\\Validation\\' => 18,
+            'Sirius\\Upload\\' => 14,
+        ),
+        'P' => 
+        array (
+            'Predis\\' => 7,
+        ),
+        'I' => 
+        array (
+            'Illuminate\\Support\\' => 19,
+            'Illuminate\\Contracts\\' => 21,
+        ),
+        'G' => 
+        array (
+            'Greggilbert\\Recaptcha\\' => 22,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Cache\\' => 22,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
+        'Sirius\\Validation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/siriusphp/validation/src',
+        ),
+        'Sirius\\Upload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/siriusphp/upload/src',
+        ),
+        'Predis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/predis/predis/src',
+        ),
+        'Illuminate\\Support\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/support',
+        ),
+        'Illuminate\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/contracts',
+        ),
+        'Greggilbert\\Recaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/greggilbert/recaptcha/src',
+        ),
+        'Doctrine\\Common\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'D' => 
+        array (
+            'Doctrine\\Common\\Inflector\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
+            ),
+        ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInitee64908ba1af9dc9288cd4e00fa09f69::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitee64908ba1af9dc9288cd4e00fa09f69::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitee64908ba1af9dc9288cd4e00fa09f69::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

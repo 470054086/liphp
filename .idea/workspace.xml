@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43013b99-73b9-4060-bb6a-dee46c7be7d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/common.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/LPHP.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Log/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Log/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Log/Redis.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/LogImplements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Model/PassportFanli.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Cache/Memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Cache/Memcached.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Cache/Redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/CacheImplements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/UploadImplements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Tools/upload.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/2016-09-22-server-log-redis.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/2016-09-22-server-log.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/indexController.php" afterPath="$PROJECT_DIR$/app/controller/indexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <ignored path="lphp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,14 +48,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Route.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/Lib/Route.php">
+      <file leaf-file-name="Memcache.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Cache/Memcache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7003058">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-              <folding>
-                <element signature="e#6#94#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="1.7278287">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,8 +71,6 @@
         <option value="$PROJECT_DIR$/core/LPHP.php" />
         <option value="$PROJECT_DIR$/app/controller/indexController.php" />
         <option value="$PROJECT_DIR$/core/Lib/Controller.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/app/views/index.html" />
         <option value="$PROJECT_DIR$/core/Lib/Config.php" />
         <option value="$PROJECT_DIR$/app/config/common.php" />
         <option value="$PROJECT_DIR$/core/Lib/Driver/Log/File.php" />
@@ -75,9 +82,27 @@
         <option value="$PROJECT_DIR$/Logs/2016-09-22-server-log-redis.log" />
         <option value="$PROJECT_DIR$/app/config/log.php" />
         <option value="$PROJECT_DIR$/Logs/2016-09-22-server-log.log" />
-        <option value="$PROJECT_DIR$/app/controller/IndexController.php" />
         <option value="$PROJECT_DIR$/core/Lib/Log.php" />
         <option value="$PROJECT_DIR$/core/Lib/Route.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/app/Model/PassportFanli.php" />
+        <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Mysql.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Model.php" />
+        <option value="$PROJECT_DIR$/core/Lib/upload.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/UploadImplements.php" />
+        <option value="$PROJECT_DIR$/app/views/index.html" />
+        <option value="$PROJECT_DIR$/core/Tools/upload.php" />
+        <option value="$PROJECT_DIR$/app/config/upload.php" />
+        <option value="$PROJECT_DIR$/core/Tools/Upload.php" />
+        <option value="$PROJECT_DIR$/app/config/cache.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Cache.php" />
+        <option value="$PROJECT_DIR$/app/controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/CacheImplements.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/Cache/Redis.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/Cache/Memcached.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/Cache/Memcache.php" />
       </list>
     </option>
   </component>
@@ -118,8 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,86 +161,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,12 +174,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hprose" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WWW\lphp\core\Lib\Driver\Log" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WWW\lphp\app\config" />
+      <recent name="D:\WWW\lphp\core\Tools" />
       <recent name="D:\WWW\lphp\core\Lib" />
       <recent name="D:\WWW\lphp\core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WWW\lphp\core\Lib\Driver\Cache" />
+      <recent name="D:\WWW\lphp\core\Lib\Driver" />
+      <recent name="D:\WWW\lphp\core\Lib" />
+      <recent name="D:\WWW\lphp\core\Lib\Driver\Log" />
     </key>
   </component>
   <component name="RunManager">
@@ -279,7 +231,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3601757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -309,19 +261,41 @@
     <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <marker date="1475130080139" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475130080139" expanded="true" signature="126:341" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="383:745" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="383:1198" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="419:432" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="461:467" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="461:745" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="776:790" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="819:1195" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="836:865" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="982:1188" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="1058:1124" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
-            <marker date="1475048374054" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475048374054" expanded="true" signature="126:235" placeholder="..." />
-            <marker date="1475048374054" expanded="true" signature="277:494" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="277:902" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="313:325" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="354:389" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="354:494" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="523:899" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="540:569" placeholder="..." />
-            <marker date="1475048374054" expanded="true" signature="686:892" placeholder="..." />
-            <marker date="1475048374054" expanded="true" signature="762:828" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475130080139" expanded="true" signature="126:341" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="383:745" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="383:1198" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="419:432" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="461:467" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="461:745" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="776:790" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="819:1195" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="836:865" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="982:1188" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="1058:1124" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -337,13 +311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59938836">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <marker date="1474964005985" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1474964005985" expanded="true" signature="143:334" placeholder="..." />
-            <marker date="1474964005985" expanded="true" signature="176:235" placeholder="{...}" />
-            <marker date="1474964005985" expanded="true" signature="244:277" placeholder=" @param $class ..." />
-            <marker date="1474964005985" expanded="true" signature="319:332" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -354,32 +321,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21406728">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3088685">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <marker date="1474967517593" expanded="true" signature="300:337" placeholder="..." />
-            <marker date="1474967517593" expanded="true" signature="343:381" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3853211">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1475030847617" expanded="true" signature="9:103" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475030847617" expanded="true" signature="114:116" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -406,55 +351,6 @@
             <marker date="1475030530318" expanded="true" signature="1930:2220" placeholder="{...}" />
             <marker date="1475030530318" expanded="true" signature="1983:2097" placeholder="{...}" />
             <marker date="1475030530318" expanded="true" signature="2102:2209" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/2016-09-22-server-log-redis.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34250763">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <marker date="1475047726876" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475047726876" expanded="true" signature="103:362" placeholder="..." />
-            <marker date="1475047726876" expanded="true" signature="139:241" placeholder="..." />
-            <marker date="1475047726876" expanded="true" signature="258:360" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/2016-09-22-server-log.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7003058">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <marker date="1475048374054" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475048374054" expanded="true" signature="126:235" placeholder="..." />
-            <marker date="1475048374054" expanded="true" signature="277:494" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="277:902" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="313:325" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="354:389" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="354:494" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="523:899" placeholder="{...}" />
-            <marker date="1475048374054" expanded="true" signature="540:569" placeholder="..." />
-            <marker date="1475048374054" expanded="true" signature="686:892" placeholder="..." />
-            <marker date="1475048374054" expanded="true" signature="762:828" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -490,32 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Lib/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44189602">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <marker date="1475048421103" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475048421103" expanded="true" signature="126:936" placeholder="..." />
-            <marker date="1475048421103" expanded="true" signature="267:935" placeholder="{...}" />
-            <marker date="1475048421103" expanded="true" signature="316:367" placeholder="..." />
-            <marker date="1475048421103" expanded="true" signature="373:924" placeholder="..." />
-            <marker date="1475048421103" expanded="true" signature="589:834" placeholder="..." />
-            <marker date="1475048421103" expanded="true" signature="840:914" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Log/File.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8562691">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <marker date="1475041697215" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475041697215" expanded="true" signature="199:488" placeholder="..." />
-            <marker date="1475041697215" expanded="true" signature="257:318" placeholder="{...}" />
-            <marker date="1475041697215" expanded="true" signature="357:487" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,7 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,8 +429,599 @@
         <state vertical-scroll-proportion="0.7003058">
           <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
           <folding>
-            <element signature="e#6#94#0#PHP" expanded="true" />
+            <marker date="1475048446791" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475048446791" expanded="true" signature="128:1302" placeholder="..." />
+            <marker date="1475048446791" expanded="true" signature="221:911" placeholder="{...}" />
+            <marker date="1475048446791" expanded="true" signature="346:433" placeholder="..." />
+            <marker date="1475048446791" expanded="true" signature="439:494" placeholder="..." />
+            <marker date="1475048446791" expanded="true" signature="544:624" placeholder="..." />
+            <marker date="1475048446791" expanded="true" signature="630:674" placeholder="..." />
+            <marker date="1475048446791" expanded="true" signature="767:844" placeholder="..." />
+            <marker date="1475048446791" expanded="true" signature="946:1301" placeholder="{...}" />
+            <marker date="1475048446791" expanded="true" signature="1150:1217" placeholder="..." />
+            <marker date="1475048446791" expanded="true" signature="1223:1294" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51376146">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/PassportFanli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.411315">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <marker date="1475052362843" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475052362843" expanded="true" signature="171:585" placeholder="..." />
+            <marker date="1475052362843" expanded="true" signature="207:296" placeholder="{...}" />
+            <marker date="1475052362843" expanded="true" signature="329:399" placeholder="{...}" />
+            <marker date="1475052362843" expanded="true" signature="441:498" placeholder="{...}" />
+            <marker date="1475052362843" expanded="true" signature="529:584" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Run.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12844037">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34250763">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7094801">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1475053245492" expanded="true" signature="418:540" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/var-dumper/Resources/functions/dump.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42813456">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48623854">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1475054620482" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475054620482" expanded="true" signature="127:626" placeholder="..." />
+            <marker date="1475054620482" expanded="true" signature="198:329" placeholder="{...}" />
+            <marker date="1475054620482" expanded="true" signature="338:381" placeholder=" 数据库连接操作 ..." />
+            <marker date="1475054620482" expanded="true" signature="421:535" placeholder="{...}" />
+            <marker date="1475054620482" expanded="true" signature="463:496" placeholder="..." />
+            <marker date="1475054620482" expanded="true" signature="567:624" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25688073">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1474644042462" expanded="true" signature="0:303" placeholder="{...}" />
+            <marker date="1474644042462" expanded="true" signature="17:301" placeholder="{&quot;hprose/hprose&quot;: &quot;^2.0&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59938836">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1475054684890" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475054684890" expanded="true" signature="127:605" placeholder="..." />
+            <marker date="1475054684890" expanded="true" signature="182:252" placeholder="{...}" />
+            <marker date="1475054684890" expanded="true" signature="260:345" placeholder=" 获取多条数据 ..." />
+            <marker date="1475054684890" expanded="true" signature="397:476" placeholder="{...}" />
+            <marker date="1475054684890" expanded="true" signature="527:603" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/siriusphp/upload/src/Result/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5810397">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <marker date="1459432065000" expanded="true" signature="128:1303" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="218:490" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="305:441" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="353:431" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="519:660" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="560:653" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="691:834" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="732:827" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="865:1036" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="925:1007" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="954:997" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="1071:1300" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="1149:1266" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/siriusphp/upload/src/Util/Arr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36238533">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <marker date="1459432065000" expanded="true" signature="83:1471" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="94:441" placeholder=" Fixes the $_FILES array problem and ensures the result is an array of files ..." />
+            <marker date="1459432065000" expanded="true" signature="499:1468" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="604:647" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="768:1220" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="850:1181" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="887:1166" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="1345:1381" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/UploadImplements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21406728">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34250763">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <marker date="1475116160571" expanded="true" signature="6:301" placeholder="..." />
+            <marker date="1475116160571" expanded="true" signature="162:293" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/siriusphp/upload/src/Result/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3470948">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <marker date="1459432065000" expanded="true" signature="99:2020" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="110:281" placeholder=" Array containing the details of the uploaded file: ..." />
+            <marker date="1459432065000" expanded="true" signature="313:426" placeholder=" The container to which this file belongs to ..." />
+            <marker date="1459432065000" expanded="true" signature="463:533" placeholder=" @param $file ..." />
+            <marker date="1459432065000" expanded="true" signature="605:685" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="694:772" placeholder=" Returns if the uploaded file is valid ..." />
+            <marker date="1459432065000" expanded="true" signature="804:889" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="898:977" placeholder=" Returns the validation error messages ..." />
+            <marker date="1459432065000" expanded="true" signature="1013:1170" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="1065:1118" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="1126:1163" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="1179:1321" placeholder=" The file that was saved during process() and has a .lock file attached ..." />
+            <marker date="1459432065000" expanded="true" signature="1351:1503" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="1512:1666" placeholder=" Remove the .lock file attached to the file that was saved during process() ..." />
+            <marker date="1459432065000" expanded="true" signature="1698:1767" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="1776:1859" placeholder=" File attribute getter ..." />
+            <marker date="1459432065000" expanded="true" signature="1894:2018" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="1941:1989" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42813456">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1475117769237" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475117769237" expanded="true" signature="103:252" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Tools/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30428135">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <marker date="1475120421753" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475120421753" expanded="true" signature="123:166" placeholder="..." />
+            <marker date="1475120421753" expanded="true" signature="179:1461" placeholder="{...}" />
+            <marker date="1475120421753" expanded="true" signature="283:485" placeholder="{...}" />
+            <marker date="1475120421753" expanded="true" signature="565:1458" placeholder="{...}" />
+            <marker date="1475120421753" expanded="true" signature="1006:1452" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/siriusphp/upload/src/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.470948">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1459432065000" expanded="false" signature="36:289" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="338:8631" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="786:823" placeholder=" @var ContainerInterface ..." />
+            <marker date="1459432065000" expanded="true" signature="860:1065" placeholder=" Prefix to be added to the file. ..." />
+            <marker date="1459432065000" expanded="true" signature="1104:1282" placeholder=" When uploading a file that has the same name as a file that is ..." />
+            <marker date="1459432065000" expanded="true" signature="1327:1420" placeholder=" Whether or not the uploaded files are auto confirmed ..." />
+            <marker date="1459432065000" expanded="true" signature="1467:1519" placeholder=" @var \Sirius\Validation\ValueValidator ..." />
+            <marker date="1459432065000" expanded="true" signature="1560:1596" placeholder=" @var function|callback ..." />
+            <marker date="1459432065000" expanded="true" signature="1641:1846" placeholder=" @param $directoryOrContainer ..." />
+            <marker date="1459432065000" expanded="true" signature="1957:2914" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="2055:2132" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="2190:2305" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="2405:2461" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="2560:2734" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="2793:2907" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="2834:2897" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="2923:3062" placeholder=" Enable/disable upload overwrite ..." />
+            <marker date="1459432065000" expanded="true" signature="3109:3190" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="3199:3457" placeholder=" File prefix for the upload. Can be ..." />
+            <marker date="1459432065000" expanded="true" signature="3498:3566" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="3575:3784" placeholder=" Enable/disable upload autoconfirmation ..." />
+            <marker date="1459432065000" expanded="true" signature="3835:3920" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="3933:4124" placeholder=" Set the sanitizer function for cleaning up the file names ..." />
+            <marker date="1459432065000" expanded="true" signature="4171:4407" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="4216:4332" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="4416:4726" placeholder=" Add validation rule (extension|size|width|height|ratio) ..." />
+            <marker date="1459432065000" expanded="true" signature="4825:5364" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="4865:5087" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="5208:5255" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="5373:5559" placeholder=" Processes a file upload and returns an upload result file/collection ..." />
+            <marker date="1459432065000" expanded="true" signature="5607:6015" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="5775:5842" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="5869:5943" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="6024:6231" placeholder=" Processes a single uploaded file ..." />
+            <marker date="1459432065000" expanded="true" signature="6287:7836" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="6642:6677" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="6769:6855" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="6892:6947" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="7068:7351" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="7134:7341" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="7512:7583" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="7728:7806" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="7845:7972" placeholder=" Validates a file according to the rules configured on the handler ..." />
+            <marker date="1459432065000" expanded="true" signature="8017:8177" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="8073:8147" placeholder="..." />
+            <marker date="1459432065000" expanded="true" signature="8186:8388" placeholder=" Sanitize the name of the uploaded file by stripping away bad characters ..." />
+            <marker date="1459432065000" expanded="true" signature="8437:8629" placeholder="{...}" />
+            <marker date="1459432065000" expanded="true" signature="8483:8560" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42813456">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <marker date="1475048421103" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475048421103" expanded="true" signature="126:936" placeholder="..." />
+            <marker date="1475048421103" expanded="true" signature="267:935" placeholder="{...}" />
+            <marker date="1475048421103" expanded="true" signature="316:367" placeholder="..." />
+            <marker date="1475048421103" expanded="true" signature="373:924" placeholder="..." />
+            <marker date="1475048421103" expanded="true" signature="589:834" placeholder="..." />
+            <marker date="1475048421103" expanded="true" signature="840:914" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29969418">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <marker date="1475047726876" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475047726876" expanded="true" signature="103:362" placeholder="..." />
+            <marker date="1475047726876" expanded="true" signature="139:241" placeholder="..." />
+            <marker date="1475047726876" expanded="true" signature="258:360" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2293578">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <marker date="1475120561558" expanded="false" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475120561558" expanded="true" signature="128:942" placeholder="..." />
+            <marker date="1475120561558" expanded="true" signature="267:941" placeholder="{...}" />
+            <marker date="1475120561558" expanded="true" signature="316:367" placeholder="..." />
+            <marker date="1475120561558" expanded="true" signature="373:930" placeholder="..." />
+            <marker date="1475120561558" expanded="true" signature="593:840" placeholder="..." />
+            <marker date="1475120561558" expanded="true" signature="846:920" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/predis/predis/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89908254">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1466094140000" expanded="false" signature="9:237" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="264:896" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="901:1254" placeholder=" Client class used for connecting and executing commands on Redis. ..." />
+            <marker date="1466094140000" expanded="true" signature="1316:16213" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="1430:1599" placeholder=" @param mixed $parameters Connection parameters for one or more servers. ..." />
+            <marker date="1466094140000" expanded="true" signature="1670:1877" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="1886:2242" placeholder=" Creates a new instance of Predis\Configuration\Options from different ..." />
+            <marker date="1466094140000" expanded="true" signature="2291:2563" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="2331:2382" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="2436:2474" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="2572:3220" placeholder=" Creates single or aggregate connections from different types of arguments ..." />
+            <marker date="1466094140000" expanded="true" signature="3275:5000" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="3339:3380" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="3466:3544" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="3583:4684" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="3625:3711" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="3803:3975" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="4020:4495" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="4151:4296" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="4304:4481" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="4503:4641" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="4726:4904" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="5009:5187" placeholder=" Wraps a callable to make sure that its returned value represents a valid ..." />
+            <marker date="1466094140000" expanded="true" signature="5255:5666" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="5306:5658" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="5446:5615" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="5675:5702" placeholder=" {@inheritdoc} ..." />
+            <marker date="1466094140000" expanded="true" signature="5737:5780" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="5789:5816" placeholder=" {@inheritdoc} ..." />
+            <marker date="1466094140000" expanded="true" signature="5851:5894" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="5903:6288" placeholder=" Creates a new client instance for the specified connection ID or alias, ..." />
+            <marker date="1466094140000" expanded="true" signature="6338:6577" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="6414:6513" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="6586:6659" placeholder=" Opens the underlying connection and connects to the server. ..." />
+            <marker date="1466094140000" expanded="true" signature="6691:6741" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="6750:6829" placeholder=" Closes the underlying connection and disconnects from the server. ..." />
+            <marker date="1466094140000" expanded="true" signature="6864:6917" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="6926:7161" placeholder=" Closes the underlying connection and disconnects from the server. ..." />
+            <marker date="1466094140000" expanded="true" signature="7190:7231" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="7240:7336" placeholder=" Returns the current state of the underlying connection. ..." />
+            <marker date="1466094140000" expanded="true" signature="7372:7433" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="7442:7469" placeholder=" {@inheritdoc} ..." />
+            <marker date="1466094140000" expanded="true" signature="7507:7553" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="7562:7882" placeholder=" Retrieves the specified connection from the aggregate connection when the ..." />
+            <marker date="1466094140000" expanded="true" signature="7937:8253" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="8017:8177" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="8262:8828" placeholder=" Executes a command without filtering its arguments, parsing the response, ..." />
+            <marker date="1466094140000" expanded="true" signature="8895:9277" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="8981:9029" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="9086:9243" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="9149:9193" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="9286:9313" placeholder=" {@inheritdoc} ..." />
+            <marker date="1466094140000" expanded="true" signature="9366:9484" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="9410:9476" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="9493:9520" placeholder=" {@inheritdoc} ..." />
+            <marker date="1466094140000" expanded="true" signature="9590:9672" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="9681:9708" placeholder=" {@inheritdoc} ..." />
+            <marker date="1466094140000" expanded="true" signature="9772:10147" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="9898:10088" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="9961:10047" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="10156:10450" placeholder=" Handles -ERR responses returned by Redis. ..." />
+            <marker date="1466094140000" expanded="true" signature="10552:11151" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="10651:11000" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="10882:10959" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="11044:11117" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="11160:11586" placeholder=" Executes the specified initializer method on `$this` by adjusting the ..." />
+            <marker date="1466094140000" expanded="true" signature="11658:12156" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="11696:12149" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="11716:11762" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="11783:11936" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="11957:12060" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="12082:12140" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="12165:12447" placeholder=" Creates a new pipeline context and returns it, or returns the results of ..." />
+            <marker date="1466094140000" expanded="true" signature="12495:12586" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="12595:12828" placeholder=" Actual pipeline context initializer method. ..." />
+            <marker date="1466094140000" expanded="true" signature="12909:13470" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="12978:13034" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="13112:13175" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="13183:13241" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="13254:13303" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="13377:13436" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="13479:13779" placeholder=" Creates a new transaction context and returns it, or returns the results ..." />
+            <marker date="1466094140000" expanded="true" signature="13830:13924" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="13933:14181" placeholder=" Actual transaction context initializer method. ..." />
+            <marker date="1466094140000" expanded="true" signature="14265:14469" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="14370:14432" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="14478:14747" placeholder=" Creates a new publish/subscribe context and returns it, or starts its loop ..." />
+            <marker date="1466094140000" expanded="true" signature="14797:14886" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="14895:15142" placeholder=" Actual publish/subscribe context initializer method. ..." />
+            <marker date="1466094140000" expanded="true" signature="15221:15532" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="15316:15353" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="15395:15525" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="15469:15515" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="15541:15639" placeholder=" Creates a new monitor consumer and returns it. ..." />
+            <marker date="1466094140000" expanded="true" signature="15671:15726" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="15735:15762" placeholder=" {@inheritdoc} ..." />
+            <marker date="1466094140000" expanded="true" signature="15798:16211" placeholder="{...}" />
+            <marker date="1466094140000" expanded="true" signature="15931:16027" placeholder="..." />
+            <marker date="1466094140000" expanded="true" signature="16070:16158" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57186544">
+          <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+          <folding>
+            <marker date="1451579822000" expanded="false" signature="8:985" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="1026:1354" placeholder=" Base class for cache provider implementations. ..." />
+            <marker date="1451579822000" expanded="true" signature="1464:8864" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="1548:1631" placeholder=" The namespace to prefix all cache ids with. ..." />
+            <marker date="1451579822000" expanded="true" signature="1671:1739" placeholder=" The namespace version. ..." />
+            <marker date="1451579822000" expanded="true" signature="1781:1909" placeholder=" Sets the namespace to prefix all cache ids with. ..." />
+            <marker date="1451579822000" expanded="true" signature="1956:2063" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="2072:2167" placeholder=" Retrieves the namespace that prefixes all cache ids. ..." />
+            <marker date="1451579822000" expanded="true" signature="2204:2249" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="2258:2285" placeholder=" {@inheritdoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="2318:2390" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="2399:2426" placeholder=" {@inheritdoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="2475:3309" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="2509:2546" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="3088:3273" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="3181:3263" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="3318:3345" placeholder=" {@inheritdoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="3417:3689" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="3520:3606" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="3698:3725" placeholder=" {@inheritdoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="3761:3836" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="3845:3872" placeholder=" {@inheritdoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="3926:4015" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="4024:4051" placeholder=" {@inheritdoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="4085:4158" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="4167:4194" placeholder=" {@inheritdoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="4227:4275" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="4284:4311" placeholder=" {@inheritDoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="4344:4389" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="4398:4425" placeholder=" {@inheritDoc} ..." />
+            <marker date="1451579822000" expanded="true" signature="4459:4779" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="4657:4749" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="4788:4962" placeholder=" Prefixes the passed id with the configured namespace value. ..." />
+            <marker date="1451579822000" expanded="true" signature="5006:5158" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="5167:5242" placeholder=" Returns the namespace cache key. ..." />
+            <marker date="1451579822000" expanded="true" signature="5288:5377" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="5386:5460" placeholder=" Returns the namespace version. ..." />
+            <marker date="1451579822000" expanded="true" signature="5505:5796" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="5559:5612" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="5805:6055" placeholder=" Default implementation of doFetchMultiple. Each driver that supports multi-get should owerwrite it. ..." />
+            <marker date="1451579822000" expanded="true" signature="6109:6376" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="6183:6338" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="6270:6328" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="6385:6602" placeholder=" Fetches an entry from the cache. ..." />
+            <marker date="1451579822000" expanded="true" signature="6659:6880" placeholder=" Tests if an entry exists in the cache. ..." />
+            <marker date="1451579822000" expanded="true" signature="6940:7391" placeholder=" Default implementation of doSaveMultiple. Each driver that supports multi-put should override it. ..." />
+            <marker date="1451579822000" expanded="true" signature="7468:7702" placeholder="{...}" />
+            <marker date="1451579822000" expanded="true" signature="7553:7669" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="7612:7659" placeholder="..." />
+            <marker date="1451579822000" expanded="true" signature="7711:8114" placeholder=" Puts data into the cache. ..." />
+            <marker date="1451579822000" expanded="true" signature="8192:8368" placeholder=" Deletes a cache entry. ..." />
+            <marker date="1451579822000" expanded="true" signature="8426:8563" placeholder=" Flushes all cache entries. ..." />
+            <marker date="1451579822000" expanded="true" signature="8617:8814" placeholder=" Retrieves cached information from the data store. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6911315">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <marker date="1475130080139" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475130080139" expanded="true" signature="126:341" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="383:745" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="383:1198" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="419:432" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="461:467" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="461:745" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="776:790" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="819:1195" placeholder="{...}" />
+            <marker date="1475130080139" expanded="true" signature="836:865" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="982:1188" placeholder="..." />
+            <marker date="1475130080139" expanded="true" signature="1058:1124" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/CacheImplements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48623854">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <marker date="1475130397731" expanded="false" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475130397731" expanded="true" signature="148:836" placeholder="{...}" />
+            <marker date="1475130397731" expanded="true" signature="158:263" placeholder=" 缓存写入 ..." />
+            <marker date="1475130397731" expanded="true" signature="324:392" placeholder=" 获取单个key ..." />
+            <marker date="1475130397731" expanded="true" signature="435:506" placeholder=" 获取多个key ..." />
+            <marker date="1475130397731" expanded="true" signature="552:614" placeholder=" 删除单个key ..." />
+            <marker date="1475130397731" expanded="true" signature="660:714" placeholder=" @param $name ..." />
+            <marker date="1475130397731" expanded="true" signature="763:803" placeholder=" 清空整个库 ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64220184">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <marker date="1475120671581" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475120671581" expanded="true" signature="103:276" placeholder="..." />
+            <marker date="1475120671581" expanded="true" signature="141:197" placeholder="..." />
+            <marker date="1475120671581" expanded="true" signature="217:274" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Cache/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68501526">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <marker date="1475130747719" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475130747719" expanded="true" signature="132:185" placeholder="..." />
+            <marker date="1475130747719" expanded="true" signature="226:1610" placeholder="..." />
+            <marker date="1475130747719" expanded="true" signature="280:675" placeholder="{...}" />
+            <marker date="1475130747719" expanded="true" signature="684:789" placeholder=" 缓存写入 ..." />
+            <marker date="1475130747719" expanded="true" signature="840:965" placeholder="{...}" />
+            <marker date="1475130747719" expanded="true" signature="873:908" placeholder="..." />
+            <marker date="1475130747719" expanded="true" signature="974:1042" placeholder=" 获取单个key ..." />
+            <marker date="1475130747719" expanded="true" signature="1075:1130" placeholder="{...}" />
+            <marker date="1475130747719" expanded="true" signature="1139:1210" placeholder=" 获取多个key ..." />
+            <marker date="1475130747719" expanded="true" signature="1246:1349" placeholder="{...}" />
+            <marker date="1475130747719" expanded="true" signature="1384:1440" placeholder="{...}" />
+            <marker date="1475130747719" expanded="true" signature="1478:1537" placeholder="{...}" />
+            <marker date="1475130747719" expanded="true" signature="1566:1609" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Cache/Memcached.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42813456">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <marker date="1475130837861" expanded="false" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475130837861" expanded="true" signature="209:1593" placeholder="..." />
+            <marker date="1475130837861" expanded="true" signature="263:658" placeholder="{...}" />
+            <marker date="1475130837861" expanded="true" signature="667:772" placeholder=" 缓存写入 ..." />
+            <marker date="1475130837861" expanded="true" signature="823:948" placeholder="{...}" />
+            <marker date="1475130837861" expanded="true" signature="856:891" placeholder="..." />
+            <marker date="1475130837861" expanded="true" signature="957:1025" placeholder=" 获取单个key ..." />
+            <marker date="1475130837861" expanded="true" signature="1058:1113" placeholder="{...}" />
+            <marker date="1475130837861" expanded="true" signature="1122:1193" placeholder=" 获取多个key ..." />
+            <marker date="1475130837861" expanded="true" signature="1229:1332" placeholder="{...}" />
+            <marker date="1475130837861" expanded="true" signature="1367:1423" placeholder="{...}" />
+            <marker date="1475130837861" expanded="true" signature="1461:1520" placeholder="{...}" />
+            <marker date="1475130837861" expanded="true" signature="1549:1592" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Cache/Memcache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7278287">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

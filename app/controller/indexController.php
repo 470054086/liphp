@@ -7,23 +7,38 @@
  */
 namespace app\controller;
 
+use app\Model\PassportFanli;
+use core\Lib\Cache;
 use core\Lib\Config;
 use core\Lib\Controller;
 use core\Lib\Driver\Log\Redis;
 use core\Lib\File;
 use core\Lib\Log;
+use core\Lib\Model;
+use Sirius\Upload\Handler as Upload;
 
 class IndexController extends Controller
 {
     public function __construct()
     {
+
     }
 
     public function index()
     {
-        $st=microtime(true);
+        $cache=Cache::getInstance();
+//        $cache->get('name');
+        $cache->save('name',['name'=>'xiaobai','age'=>10],300);
+//        var_dump($cache->get('name'));
         $this->assign('data',['name'=>'xiaobai','age'=>10]);
         $this->display('index.html');
+    }
+
+
+    public function upload()
+    {
+
+
     }
 
 

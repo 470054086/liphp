@@ -6,4 +6,14 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
+    'Sirius\\Validation\\' => array($vendorDir . '/siriusphp/validation/src'),
+    'Sirius\\Upload\\' => array($vendorDir . '/siriusphp/upload/src'),
+    'Predis\\' => array($vendorDir . '/predis/predis/src'),
+    'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
+    'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
+    'Greggilbert\\Recaptcha\\' => array($vendorDir . '/greggilbert/recaptcha/src'),
+    'Doctrine\\Common\\Cache\\' => array($vendorDir . '/doctrine/cache/lib/Doctrine/Common/Cache'),
 );

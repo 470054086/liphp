@@ -13,17 +13,18 @@ define('Controller',"\\app\\controller\\");
 
 
 define('VIEWS',App.'views/');
-
-
 define('DEBUG',true);
-if(DEBUG){
-    ini_set('display_errors','On');
-}else{
-    ini_set('display_errors','Off');
-}
 include LIB.'autoload.php';
 //加载comporse
 include ROOT.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
+
+if(DEBUG){
+    $whoops = new \Whoops\Run;
+    $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+    $whoops->register();
+}
+
+
 
 //自动加载
 spl_autoload_register("\\autoload::load");
