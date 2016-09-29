@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43013b99-73b9-4060-bb6a-dee46c7be7d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Model/PassportFanli.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Cache/Memcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Cache/Memcached.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Cache/Redis.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/CacheImplements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/UploadImplements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Tools/upload.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/2016-09-22-server-log-redis.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/2016-09-22-server-log.log" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Jobs/Write.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/Queue/Redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Driver/QueueImplements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Lib/Queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Tools/QueueHandle.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/indexController.php" afterPath="$PROJECT_DIR$/app/controller/indexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Lib/Log.php" afterPath="$PROJECT_DIR$/core/Lib/Log.php" />
     </list>
     <ignored path="lphp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,12 +30,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Memcache.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Cache/Memcache.php">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7278287">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.57186544">
+              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+              <folding>
+                <element signature="e#6#94#0#PHP" expanded="true" />
+                <element signature="e#122#150#0#PHP" expanded="true" />
+                <marker date="1475140976846" expanded="true" signature="403:834" placeholder="{...}" />
+                <marker date="1475140976846" expanded="true" signature="481:487" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +69,6 @@
         <option value="$PROJECT_DIR$/Logs/2016-09-22-server-log-redis.log" />
         <option value="$PROJECT_DIR$/app/config/log.php" />
         <option value="$PROJECT_DIR$/Logs/2016-09-22-server-log.log" />
-        <option value="$PROJECT_DIR$/core/Lib/Log.php" />
         <option value="$PROJECT_DIR$/core/Lib/Route.php" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/Model/PassportFanli.php" />
@@ -98,11 +84,17 @@
         <option value="$PROJECT_DIR$/core/Tools/Upload.php" />
         <option value="$PROJECT_DIR$/app/config/cache.php" />
         <option value="$PROJECT_DIR$/core/Lib/Cache.php" />
-        <option value="$PROJECT_DIR$/app/controller/IndexController.php" />
         <option value="$PROJECT_DIR$/core/Lib/Driver/CacheImplements.php" />
         <option value="$PROJECT_DIR$/core/Lib/Driver/Cache/Redis.php" />
         <option value="$PROJECT_DIR$/core/Lib/Driver/Cache/Memcached.php" />
         <option value="$PROJECT_DIR$/core/Lib/Driver/Cache/Memcache.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Log.php" />
+        <option value="$PROJECT_DIR$/app/Jobs/Write.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Queue.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/QueueImplements.php" />
+        <option value="$PROJECT_DIR$/core/Tools/QueueHandle.php" />
+        <option value="$PROJECT_DIR$/core/Lib/Driver/Queue/Redis.php" />
+        <option value="$PROJECT_DIR$/app/controller/IndexController.php" />
       </list>
     </option>
   </component>
@@ -161,6 +153,136 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -181,8 +303,9 @@
       <recent name="D:\WWW\lphp\core" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WWW\lphp\core\Lib\Driver\Cache" />
+      <recent name="D:\WWW\lphp\core\Lib\Driver\Queue" />
       <recent name="D:\WWW\lphp\core\Lib\Driver" />
+      <recent name="D:\WWW\lphp\core\Lib\Driver\Cache" />
       <recent name="D:\WWW\lphp\core\Lib" />
       <recent name="D:\WWW\lphp\core\Lib\Driver\Log" />
     </key>
@@ -229,9 +352,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3601757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3601757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -263,18 +386,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
-            <marker date="1475130080139" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475130080139" expanded="true" signature="126:341" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="383:745" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="383:1198" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="419:432" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="461:467" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="461:745" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="776:790" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="819:1195" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="836:865" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="982:1188" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="1058:1124" placeholder="..." />
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="e#122#150#0#PHP" expanded="true" />
+            <marker date="1475140976846" expanded="true" signature="403:834" placeholder="{...}" />
+            <marker date="1475140976846" expanded="true" signature="481:487" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -284,18 +399,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
-            <marker date="1475130080139" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475130080139" expanded="true" signature="126:341" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="383:745" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="383:1198" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="419:432" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="461:467" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="461:745" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="776:790" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="819:1195" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="836:865" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="982:1188" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="1058:1124" placeholder="..." />
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="e#122#150#0#PHP" expanded="true" />
+            <marker date="1475140976846" expanded="true" signature="403:834" placeholder="{...}" />
+            <marker date="1475140976846" expanded="true" signature="481:487" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -311,6 +418,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59938836">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <marker date="1474964005985" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1474964005985" expanded="true" signature="143:334" placeholder="..." />
+            <marker date="1474964005985" expanded="true" signature="176:235" placeholder="{...}" />
+            <marker date="1474964005985" expanded="true" signature="244:277" placeholder=" @param $class ..." />
+            <marker date="1474964005985" expanded="true" signature="319:332" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -383,13 +497,6 @@
             <marker date="1475042487672" expanded="true" signature="622:673" placeholder=" 检测文件的路径  如果不存在 则创建 ..." />
             <marker date="1475042487672" expanded="true" signature="717:786" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Log/File.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8562691">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -582,6 +689,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21406728">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <marker date="1475057031979" expanded="false" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475057031979" expanded="true" signature="149:154" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,22 +813,6 @@
             <marker date="1459432065000" expanded="true" signature="8186:8388" placeholder=" Sanitize the name of the uploaded file by stripping away bad characters ..." />
             <marker date="1459432065000" expanded="true" signature="8437:8629" placeholder="{...}" />
             <marker date="1459432065000" expanded="true" signature="8483:8560" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Lib/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42813456">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <marker date="1475048421103" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475048421103" expanded="true" signature="126:936" placeholder="..." />
-            <marker date="1475048421103" expanded="true" signature="267:935" placeholder="{...}" />
-            <marker date="1475048421103" expanded="true" signature="316:367" placeholder="..." />
-            <marker date="1475048421103" expanded="true" signature="373:924" placeholder="..." />
-            <marker date="1475048421103" expanded="true" signature="589:834" placeholder="..." />
-            <marker date="1475048421103" expanded="true" signature="840:914" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -921,27 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6911315">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <marker date="1475130080139" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1475130080139" expanded="true" signature="126:341" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="383:745" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="383:1198" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="419:432" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="461:467" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="461:745" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="776:790" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="819:1195" placeholder="{...}" />
-            <marker date="1475130080139" expanded="true" signature="836:865" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="982:1188" placeholder="..." />
-            <marker date="1475130080139" expanded="true" signature="1058:1124" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/Lib/Driver/CacheImplements.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48623854">
@@ -1021,7 +1095,150 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7278287">
           <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <marker date="1475130848638" expanded="false" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475130848638" expanded="true" signature="205:1630" placeholder="..." />
+            <marker date="1475130848638" expanded="true" signature="259:695" placeholder="{...}" />
+            <marker date="1475130848638" expanded="true" signature="704:809" placeholder=" 缓存写入 ..." />
+            <marker date="1475130848638" expanded="true" signature="860:985" placeholder="{...}" />
+            <marker date="1475130848638" expanded="true" signature="893:928" placeholder="..." />
+            <marker date="1475130848638" expanded="true" signature="994:1062" placeholder=" 获取单个key ..." />
+            <marker date="1475130848638" expanded="true" signature="1095:1150" placeholder="{...}" />
+            <marker date="1475130848638" expanded="true" signature="1159:1230" placeholder=" 获取多个key ..." />
+            <marker date="1475130848638" expanded="true" signature="1266:1369" placeholder="{...}" />
+            <marker date="1475130848638" expanded="true" signature="1404:1460" placeholder="{...}" />
+            <marker date="1475130848638" expanded="true" signature="1498:1557" placeholder="{...}" />
+            <marker date="1475130848638" expanded="true" signature="1586:1629" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Jobs/Write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72782874">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <marker date="1475132836712" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475132836712" expanded="true" signature="146:344" placeholder="..." />
+            <marker date="1475132836712" expanded="true" signature="205:244" placeholder="{...}" />
+            <marker date="1475132836712" expanded="true" signature="274:343" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2016-09-24-xiaobai.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9571865">
+          <caret line="33" column="13" selection-start-line="22" selection-start-column="10" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <marker date="1475133156576" expanded="true" signature="9:103" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475133156576" expanded="true" signature="140:1001" placeholder="..." />
+            <marker date="1475133156576" expanded="true" signature="279:999" placeholder="{...}" />
+            <marker date="1475133156576" expanded="true" signature="328:379" placeholder="..." />
+            <marker date="1475133156576" expanded="true" signature="385:991" placeholder="..." />
+            <marker date="1475133156576" expanded="true" signature="654:901" placeholder="..." />
+            <marker date="1475133156576" expanded="true" signature="907:981" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/QueueImplements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5917431">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <marker date="1475138082010" expanded="false" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475138082010" expanded="true" signature="148:569" placeholder="{...}" />
+            <marker date="1475138082010" expanded="true" signature="158:220" placeholder=" 输入队列的名字 ..." />
+            <marker date="1475138082010" expanded="true" signature="281:341" placeholder=" 延迟时间 ..." />
+            <marker date="1475138082010" expanded="true" signature="387:446" placeholder=" 错误次数 ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Tools/QueueHandle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29969418">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Queue/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4006116">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1475139365881" expanded="false" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475139365881" expanded="true" signature="133:185" placeholder="..." />
+            <marker date="1475139365881" expanded="true" signature="226:1314" placeholder="..." />
+            <marker date="1475139365881" expanded="true" signature="354:410" placeholder="{...}" />
+            <marker date="1475139365881" expanded="true" signature="418:480" placeholder=" 输入队列的名字 ..." />
+            <marker date="1475139365881" expanded="true" signature="531:597" placeholder="{...}" />
+            <marker date="1475139365881" expanded="true" signature="649:751" placeholder="{...}" />
+            <marker date="1475139365881" expanded="true" signature="786:907" placeholder="{...}" />
+            <marker date="1475139365881" expanded="true" signature="940:1051" placeholder="{...}" />
+            <marker date="1475139365881" expanded="true" signature="1060:1086" placeholder=" 对数据进行解析 然后入队 ..." />
+            <marker date="1475139365881" expanded="true" signature="1117:1311" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Driver/Log/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55198777">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <marker date="1475041697215" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475041697215" expanded="true" signature="199:488" placeholder="..." />
+            <marker date="1475041697215" expanded="true" signature="257:318" placeholder="{...}" />
+            <marker date="1475041697215" expanded="true" signature="357:487" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Lib/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15137614">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <marker date="1475132043741" expanded="true" signature="9:92" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1475132043741" expanded="true" signature="126:933" placeholder="..." />
+            <marker date="1475132043741" expanded="true" signature="267:932" placeholder="{...}" />
+            <marker date="1475132043741" expanded="true" signature="316:367" placeholder="..." />
+            <marker date="1475132043741" expanded="true" signature="373:924" placeholder="..." />
+            <marker date="1475132043741" expanded="true" signature="589:834" placeholder="..." />
+            <marker date="1475132043741" expanded="true" signature="840:914" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57186544">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="e#122#150#0#PHP" expanded="true" />
+            <marker date="1475140976846" expanded="true" signature="403:834" placeholder="{...}" />
+            <marker date="1475140976846" expanded="true" signature="481:487" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

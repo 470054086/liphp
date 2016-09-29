@@ -15,6 +15,7 @@ use core\Lib\Driver\Log\Redis;
 use core\Lib\File;
 use core\Lib\Log;
 use core\Lib\Model;
+use core\Lib\Queue;
 use Sirius\Upload\Handler as Upload;
 
 class IndexController extends Controller
@@ -26,19 +27,17 @@ class IndexController extends Controller
 
     public function index()
     {
-        $cache=Cache::getInstance();
-//        $cache->get('name');
-        $cache->save('name',['name'=>'xiaobai','age'=>10],300);
-//        var_dump($cache->get('name'));
+        $queue=Queue::getInstance();
+
+        $data=[
+            'name'=>'xiaobai',
+            'age'=>10
+        ];
+//        //将输入进入队列
+//
+        $queue->pushQueue(new \app\Jobs\Write($data))->delay(30)->enum(3)->queue('write')->handle();
         $this->assign('data',['name'=>'xiaobai','age'=>10]);
         $this->display('index.html');
-    }
-
-
-    public function upload()
-    {
-
-
     }
 
 
@@ -50,13 +49,31 @@ class IndexController extends Controller
         set_time_limit(0);
         $redis=new \Redis();
         $redis->connect('127.0.0.1');
-        while(true){
-            $info=$redis->lPop('server-log');
-            if(empty($info)){
-                sleep(10);
-                continue;
+        $queueName=empty($_GET['queue'])?'defualt_queue':$_GET['queue'];
+        //去除最后一个
+        $data=$redis->lRange($queueName,-1,-1);
+        if(empty($data)){
+            return true;
+        }
+        $data=unserialize($data[0]);
+        if(!empty($data['delay'])){
+            if($data['delay']>time()){
+                return true;
             }
-            File::writeLog('server-log-redis',$info);
+        }
+        //执行方法
+        try{
+            $class=$data['queueObject'];
+            $class->handle();
+            $redis->lpop($queueName);
+        }catch(\Exception $e){
+            if($data['enum']==1){
+                //直接写日志
+                Log::getInstance('queue')->inLog($data);
+            }else{
+                $data['enum']=$data['enum'];
+                $redis->rpush($queueName,serialize($data));
+            }
         }
     }
 
