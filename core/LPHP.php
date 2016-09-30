@@ -15,6 +15,14 @@ class LPHP{
         Route::dispatch();
     }
 
+    public static function shellRun()
+    {
+        Route::Shelldispatch();
+    }
+
+
+
+
     /**类的自动加载
      * @param $class
      */

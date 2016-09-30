@@ -39,6 +39,43 @@ class Route {
         self::ctrl();
     }
 
+
+
+    public static function Shelldispatch()
+    {
+        $urlsArr=$_SERVER['argv'];
+        unset($urlsArr[0]);
+        if(!empty($urlsArr[1])){
+            self::$ctrl=ucwords($urlsArr[1]);
+            unset($urlsArr[1]);
+        }else{
+            self::$ctrl='Index';//稍后使用配置文件替换掉
+        }
+        //对方法进行
+        if(!empty($urlsArr[2])){
+            self::$action=$urlsArr[2];
+            unset($urlsArr[2]);
+        }else{
+            self::$action='Index';
+        }
+        $param=[];
+        if(!empty($urlsArr)){
+            foreach($urlsArr as $k=>$v)
+            {
+                $tmp=explode('=',$v);
+                $param[$tmp[0]]=$tmp[1];
+            }
+
+
+        }
+        $_GET=$param;
+        //进行控制器分发
+        self::ctrl();
+    }
+
+
+
+
     public static function ctrl()
     {
         $fileName=App.'controller'.DIRECTORY_SEPARATOR.self::$ctrl.'Controller.php';
