@@ -6,6 +6,7 @@
  * Time: 16:11
  */
 namespace core\Lib;
+
 class Route {
     private static $ctrl;
     private static $action;
@@ -18,14 +19,14 @@ class Route {
             self::$ctrl=ucwords($urlsArr[0]);
             unset($urlsArr[0]);
         }else{
-            self::$ctrl='Index';//稍后使用配置文件替换掉
+            self::$ctrl=Config::getConfig('common.DEFAULT_CONTROLLER');
         }
         //对方法进行
         if(!empty($urlsArr[1])){
             self::$action=$urlsArr[1];
             unset($urlsArr[1]);
         }else{
-            self::$action='Index';
+            self::$action=\core\Lib\Config::getConfig('common.DEFAULT_ACTION');
         }
         $counts=count($urlsArr);
         $i=2;
@@ -49,14 +50,14 @@ class Route {
             self::$ctrl=ucwords($urlsArr[1]);
             unset($urlsArr[1]);
         }else{
-            self::$ctrl='Index';//稍后使用配置文件替换掉
+            self::$ctrl=Config::getConfig('common.DEFAULT_CONTROLLER');//稍后使用配置文件替换掉
         }
         //对方法进行
         if(!empty($urlsArr[2])){
             self::$action=$urlsArr[2];
             unset($urlsArr[2]);
         }else{
-            self::$action='Index';
+            self::$action=\core\Lib\Config::getConfig('common.DEFAULT_ACTION');
         }
         $param=[];
         if(!empty($urlsArr)){
@@ -65,7 +66,6 @@ class Route {
                 $tmp=explode('=',$v);
                 $param[$tmp[0]]=$tmp[1];
             }
-
 
         }
         $_GET=$param;

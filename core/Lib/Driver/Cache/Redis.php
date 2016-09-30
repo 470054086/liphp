@@ -73,4 +73,5 @@ class Redis implements CacheImplements{
     {
         return $this->flush();
     }
+
 }

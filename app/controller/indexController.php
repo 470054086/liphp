@@ -8,18 +8,16 @@
 namespace app\controller;
 
 use app\Event\UserRegisterEvent;
-use app\Model\PassportFanli;
-use core\Tools\Event;
+
 use core\Lib\Cache;
-use core\Lib\Config;
+use core\Lib\Redis;
+use core\Tools\Event;
+
 use core\Lib\Controller;
-use core\Lib\Driver\Log\Redis;
-use core\Lib\File;
+
 use core\Lib\Log;
-use core\Lib\Model;
-use core\Lib\Queue;
-use Illuminate\Support\Facades\App;
-use Sirius\Upload\Handler as Upload;
+
+
 
 class IndexController extends Controller
 {
@@ -30,10 +28,11 @@ class IndexController extends Controller
 
     public function index()
     {
-//        $queue=Queue::getInstance();
-////        //将输入进入队列
-//        $queue->pushQueue(new \app\Jobs\Write($data))->delay(30)->enum(3)->queue('write')->handle();
-//        $this->assign('data',['name'=>'xiaobai','age'=>10]);
+        $queue=Queue::getInstance();
+//        //将输入进入队列
+        $queue->pushQueue(new \app\Jobs\Write($data))->delay(30)->enum(3)->queue('write')->handle();
+        $this->assign('data',['name'=>'xiaobai','age'=>10]);
+        $redis=Redis::Instance();
         $data=['name'=>'xiaobai','age'=>10];
         //触发事件
         Event::fire(new UserRegisterEvent($data));

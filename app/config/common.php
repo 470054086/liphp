@@ -7,5 +7,7 @@
  * 项目的基础配置
  */
 return [
+    'DEFAULT_CONTROLLER'=>'Index',
+    'DEFAULT_ACTION'=>'Index',
 
 ];

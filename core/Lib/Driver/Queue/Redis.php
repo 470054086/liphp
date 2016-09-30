@@ -59,8 +59,7 @@ class Redis implements QueueImplements{
     public function handle()
     {
         // TODO: Implement handle() method.
-        $redis=new \Redis();
-        $redis->connect('127.0.0.1');
+        $redis=\core\Lib\Redis::Instance();
         return $redis->lPush($this->queueName,serialize($this->data));
     }
 
