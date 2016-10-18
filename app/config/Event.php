@@ -11,5 +11,4 @@ return [
         'app\Observer\UserObserver',
         'app\Observer\WriteObserver',
     ],
-
 ];

@@ -11,9 +11,10 @@ class Route {
     private static $ctrl;
     private static $action;
 
-    public static function dispatch()
+    public static function dispatch($uris='')
     {
-        $uris=$_SERVER['REQUEST_URI'];
+        $uris=!empty($uris)?$uris:$_SERVER['REQUEST_URI'];
+
         $urlsArr=explode('/',trim($uris,'/'));
         if(!empty($urlsArr[0])){
             self::$ctrl=ucwords($urlsArr[0]);

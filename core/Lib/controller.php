@@ -25,7 +25,7 @@ class Controller{
         }
         if(is_file($file)){
             extract($this->assign);
-            include $file;
+            return include $file;
         }else{
             throw new \Exception('加载的模板'.$file.'不存在');
         }

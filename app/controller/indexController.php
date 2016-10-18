@@ -6,18 +6,10 @@
  * Time: 16:25
  */
 namespace app\controller;
-
-use app\Event\UserRegisterEvent;
-
-use core\Lib\Cache;
-use core\Lib\Queue;
-use core\Lib\Redis;
-use core\Tools\Event;
-
+use core\Lib\Common;
 use core\Lib\Controller;
-
 use core\Lib\Log;
-
+use core\Swoole\Network\Server;
 
 
 class IndexController extends Controller
@@ -29,16 +21,15 @@ class IndexController extends Controller
 
     public function index()
     {
-        $queue=Queue::getInstance();
-        $data=['name'=>'xiaobai','age'=>10];
-//        //将输入进入队列
-        $queue->pushQueue(new \app\Jobs\Write($data))->delay(30)->enum(3)->queue('write')->handle();
-//        $this->assign('data',['name'=>'xiaobai','age'=>10]);
-//        $redis=Redis::Instance();
-//
-//        //触发事件
-//        Event::fire(new UserRegisterEvent($data));
-//        $this->display('index.html');
+        $data=['url'=>'Index/show','data'=>'xioabai'];
+        Server::$sw->task($data);
+        return $this->display('index.html');
+    }
+
+    public function show()
+    {
+        $this->assign('name','xiaobai');
+        return $this->display('show.html');
     }
 
 

@@ -22,7 +22,7 @@ class Redis
      * 数据库连接操作
      * @return \medoo
      */
-    public static function Instance()
+    public static function getInstance()
     {
         if(empty(self::$instance)){
             new self();

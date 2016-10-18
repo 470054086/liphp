@@ -69,6 +69,25 @@ class Config{
              }
         }
 
+        public static function allConfig()
+        {
+            $dir=App.'config';
+            $handle=opendir($dir);
+            $files=[];
+            while (false !== ($file = readdir($handle))) {
+                if ($file != "." && $file != "..")
+                    $files[]=$file;
+            }
+            $configs=[];
+            foreach($files as $k=>$v)
+            {
+                $name=explode('.',$v);
+                $name=$name[0];
+                $configs[$name]=self::getConfigAll($name);
+            }
+            return $configs;
+        }
+
 
 
 }

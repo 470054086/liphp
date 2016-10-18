@@ -18,7 +18,7 @@ class autoload{
             return true;
         }else{
             if(is_file($fileName)){
-                include $fileName;
+                 include_once $fileName;
             }else{
                 throw new Exception('加载的文件'.$fileName.'不存在');
             }
