@@ -19,17 +19,32 @@ class IndexController extends Controller
 
     }
 
-    public function index()
+    public function index($data)
     {
-        $data=['url'=>'Index/show','data'=>'xioabai'];
-        Server::$sw->task($data);
-        return $this->display('index.html');
+        $reids=Common::getInstance('Redis');
+        $history=$reids->lrange('history',0,-1);
+        $this->assign('history',$history);
+        $this->display('index.html');
     }
 
     public function show()
     {
         $this->assign('name','xiaobai');
         return $this->display('show.html');
+    }
+
+    public function add($arg)
+    {
+        $data=[
+            'name'=>'xiaobai',
+            'message'=>$arg,
+        ];
+        $taskData=[
+            'url'=>'Index/add',
+            'data'=>$arg,
+        ];
+        Server::$sw->task($taskData);
+        return $data;
     }
 
 

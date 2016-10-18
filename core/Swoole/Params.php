@@ -33,17 +33,20 @@ class Params{
             }
             //进行刷新
             posix_kill($server_pid,SIGUSR1);
-
+            echo "swoole is reload success\n";
+            exit();
         }elseif($opt['s']=='start'){
 //            if(!empty($server_pid)){
 //                exit('Swoole Server is runing');
 //            }
         }elseif($opt['s']=='stop'){
-//            if(empty($server_pid)){
-//                exit('Swoole Server is not runing');
-//            }
-//            //杀死进程
-//            posix_kill($server_pid,SIGTERM);
+            if(empty($server_pid)){
+                exit('Swoole Server is not runing');
+            }
+            //杀死进程
+            posix_kill($server_pid,SIGTERM);
+            echo "swoole is stop success\n";
+            exit;
         }else{
             usage:
             echo "------------------------------------------------\n";
@@ -52,7 +55,7 @@ class Params{
             echo "-socket                         创建一个websocket服务器-\n";
             echo "-tcp                         创建一个tcp服务器-\n";
             echo "-----------------------------------\n";
-            return fasle;
+            exit();
         }
         return true;
     }

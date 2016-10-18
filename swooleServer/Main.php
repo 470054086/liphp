@@ -3,8 +3,8 @@
  * Created by PhpStorm.
  * User: Administrator
  * Date: 2016/10/12
- * Time: 14:12
  * Swoole启动文件
+   111
  */
 define('ROOT',dirname(__DIR__));
 define('SWOOLEROOT',__DIR__);

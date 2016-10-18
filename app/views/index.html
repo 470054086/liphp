@@ -1,9 +1,29 @@
 <html>
-<h1>这是我的第三个程序</h1>
-<img src="http://img.lsphp.tz/a.jpg" alt="">
-<form action="/index/upload" enctype="multipart/form-data" method="post">
-    <input type='file' name="picture[]">
-    <input type='file' name="picture[]">
-    <input type="submit" value="submit">
-</form>
+<textarea name=""  id="textarea" cols="30" rows="10"></textarea>
+<input type="button" value="提交" id="click">
+<textarea name=""  id="push" cols="30" rows="10"><?php foreach($history as $k => $v):?><?=$v."\n"?><?php endforeach;?></textarea>
+
+
+<script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/static/jquery/jquery-1.10.2.min_f2fb5194.js"></script>
+<script>
+    var ws = new WebSocket("ws://192.168.36.131:8081");
+    ws.onopen = function(){ws.send("Test!"); };
+    $('#click').click(function(){
+        var data=$('#textarea').val();
+        var sendto={
+            url:'index/add',
+            data:data,
+        };
+        sendto= JSON.stringify(sendto);
+        sendto+="\r\n\r\n";
+        ws.send(sendto);
+    });
+    ws.onmessage=function(event){
+        var data= $.parseJSON(event.data);
+        var message=$('#push').val();
+        console.log(message);
+        message+=data.message+"\n";
+        $('#push').val(message);
+    }
+</script>
 </html>

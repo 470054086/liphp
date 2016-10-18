@@ -10,7 +10,12 @@ class Index {
 
     public static function show($server,$data,$taskId,$fromId)
     {
-        file_put_contents('a.log',json_encode($server->allConfig),FILE_APPEND);
+    }
+
+    public static function add($server,$data,$taskId,$fromId)
+    {
+        $redis=$server->Redis;
+        $redis->lpush('history',$data);
     }
 
 }

@@ -33,6 +33,7 @@ class Server
             case self::TCP_TYPE:
                 break;
             case self::SOCKET_TYPE:
+                self::$sw=new \swoole_websocket_server($config['host'],$config['port']);
                 break;
             case self::HTTP_TYPE:
                 self::$sw=new \swoole_http_server($config['host'],$config['port']);

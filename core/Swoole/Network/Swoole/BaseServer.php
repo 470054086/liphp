@@ -102,7 +102,7 @@ abstract class BaseServer
         $configModel=$config['task']['taks_model'];
         $class="{$configModel}{$params[0]}";
         $method=$params[1];
-        $class::$method($server,$taskId,$fromId,$data['data']);
+        $class::$method($server,$data['data'],$taskId,$fromId);
         return 'task Ok';
     }
 

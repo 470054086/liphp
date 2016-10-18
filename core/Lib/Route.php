@@ -11,7 +11,7 @@ class Route {
     private static $ctrl;
     private static $action;
 
-    public static function dispatch($uris='')
+    public static function dispatch($uris='',$argv=[])
     {
         $uris=!empty($uris)?$uris:$_SERVER['REQUEST_URI'];
 
@@ -38,7 +38,7 @@ class Route {
         }
         $_GET=$tmp;
         //进行控制器分发
-        self::ctrl();
+        return self::ctrl($argv);
     }
 
 
@@ -77,14 +77,15 @@ class Route {
 
 
 
-    public static function ctrl()
+    public static function ctrl($argv=[])
     {
         $fileName=App.'controller'.DIRECTORY_SEPARATOR.self::$ctrl.'Controller.php';
         $new=Controller.self::$ctrl."Controller";
         $action=self::$action;
         if(is_file($fileName)){
             $ctr=new $new();
-            $ctr->$action();
+            return $ctr->$action($argv);
+
         }else{
             throw  new \Exception('你加载的控制器'.$fileName.'不存在');
         }
