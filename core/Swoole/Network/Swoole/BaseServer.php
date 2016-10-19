@@ -8,6 +8,7 @@
 namespace core\Swoole\Network\Swoole;
 use core\Lib\Crontab;
 use core\Lib\Route;
+use core\Swoole\Network\Http;
 use core\Swoole\Network\Server;
 use core\Swoole\Params;
 
@@ -106,17 +107,20 @@ abstract class BaseServer
 
     public function onRevicer($request,$response)
     {
+
         //过滤掉  request_uri  /favicon.ico
         if($request->server['request_uri']=='/favicon.ico'){
             return ;
         }
         //进行路由分发
         ob_start();
-        Route::dispatch($request->server['request_uri']);
+        Route::dispatch($request->server['request_uri'],$request,$response);
         $html=ob_get_contents();
         ob_end_clean();
-        //设置头信息
-        $response->header("Content-Type", "text/html; charset=utf-8");
+        //输入cookie
+        if(empty($request->cookie['SESSID'])){
+            $response->cookie('SESSID',md5(rand(111111, 999999)));
+        }
         //输出最后的环境
         $response->end($html);
     }

@@ -36,9 +36,9 @@ class Params{
             echo "swoole is reload success\n";
             exit();
         }elseif($opt['s']=='start'){
-            if(!empty($server_pid)){
-                exit('Swoole Server is runing');
-            }
+//            if(!empty($server_pid)){
+//                exit('Swoole Server is runing');
+//            }
         }elseif($opt['s']=='stop'){
             if(empty($server_pid)){
                 exit('Swoole Server is not runing');

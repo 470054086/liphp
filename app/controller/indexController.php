@@ -9,6 +9,7 @@ namespace app\controller;
 use core\Lib\Common;
 use core\Lib\Controller;
 use core\Lib\Log;
+use core\Swoole\Network\Http;
 use core\Swoole\Network\Server;
 
 
@@ -19,11 +20,14 @@ class IndexController extends Controller
 
     }
 
-    public function index($data)
+    public function index($request,$reponse)
     {
-        $reids=Common::getInstance('Redis');
-        $history=$reids->lrange('history',0,-1);
-        $this->assign('history',$history);
+        $http=new Http($request,$reponse);
+        $http->setsession('profile',[
+            'name'=>'xiaobai',
+            'age'=>100,
+            'profile'=>'xxxx'
+        ]);
         $this->display('index.html');
     }
 

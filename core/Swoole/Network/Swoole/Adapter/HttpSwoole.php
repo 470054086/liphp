@@ -14,4 +14,12 @@ class HttpSwoole extends BaseServer{
 //    {
 //
 //    }
+
+    /**
+     * 对cookie的处理
+     */
+      public function setcookie()
+      {
+
+      }
 }
