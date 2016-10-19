@@ -6,6 +6,7 @@
  * Time: 15:56
  */
 namespace core\Swoole\Network\Swoole;
+use core\Lib\Crontab;
 use core\Lib\Route;
 use core\Swoole\Network\Server;
 use core\Swoole\Params;
@@ -30,11 +31,6 @@ abstract class BaseServer
         swoole_set_process_name("Swoole->Manage pid->{$pid}");
     }
 
-
-
-
-
-
     /**
      * 请求时间
      * 这是哪个傻逼写的代码
@@ -52,7 +48,40 @@ abstract class BaseServer
         //在这里对需要的对象进行实例化  并且存储在sw对象中  让全局都能使用
         //达到常驻内存
         $this->WorkStartMoudle();
+        //完成定时器操作
+//        $this->crontab($serv,$worker_id);
+
     }
+
+//    public function crontab($serv,$worker_id)
+//    {
+//          $config=$serv->allConfig;
+//          $crontabConfig=empty($config['crontab'])?'':$config['crontab'];
+//          if(!empty($crontabConfig)){
+//              foreach($crontabConfig as $k=>$v)
+//              {
+//                    //计算出 下一次的执行时间
+//                  if($worker_id==$v['taskID']){
+//
+//                      $serv->tick(1000,function() use($serv,$v){
+//                          $this->crontabRun($serv,$v);
+//                        });
+//                  }
+//              }
+//          }
+//    }
+
+//    public function crontabRun($serv,$config,$times)
+//    {
+//        $time=$config['time'];
+//        $nextTime=Crontab::parse($time,$times);
+//        if($times==$nextTime){
+//            echo
+//        }
+//    }
+
+
+
 
     public function WorkStartMoudle()
     {
@@ -70,6 +99,9 @@ abstract class BaseServer
             Server::$sw->allConfig=$config;
         }
     }
+
+
+
 
 
     public function onRevicer($request,$response)

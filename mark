@@ -1,0 +1,8 @@
+启动命令
+    /usr/local/php/bin/php /home/wwwroot/default/lphp/swooleServer/Main.php -t http -s start
+            -t 类型
+            -s 启动命令
+访问：
+       index index
+配置文件
+        AUTOLOAD=1 #是否自动加载模块  自动加载 需要加载redis 和mysql  如果测试 可以禁止掉
