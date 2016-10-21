@@ -34,11 +34,11 @@ class SocketSwoole extends BaseServer{
 
         public function onClose($ws, $fd){
             $ret=['message'=>'系统消息:用户:'.$fd."离开聊天室"];
-            echo '系统消息:用户:'.$fd."离开聊天室";
-
             foreach($ws->connections as $fdwork)
             {
-                $ws->push($fdwork,json_encode($ret));
+                if($fd!=$fdwork){
+                    $ws->push($fdwork,json_encode($ret));
+                }
             }
         }
 

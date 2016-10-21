@@ -6,9 +6,8 @@
  * Time: 15:56
  */
 namespace core\Swoole\Network\Swoole;
-use core\Lib\Crontab;
 use core\Lib\Route;
-use core\Swoole\Network\Http;
+use core\Swoole\Network\Cookie;
 use core\Swoole\Network\Server;
 use core\Swoole\Params;
 
@@ -112,15 +111,15 @@ abstract class BaseServer
         if($request->server['request_uri']=='/favicon.ico'){
             return ;
         }
+
+        //让server绑定$request 和$response
+        Server::$sw->request=$request;
+        Server::$sw->response=$response;
         //进行路由分发
         ob_start();
-        Route::dispatch($request->server['request_uri'],$request,$response);
+        Route::dispatch($request->server['request_uri']);
         $html=ob_get_contents();
         ob_end_clean();
-        //输入cookie
-        if(empty($request->cookie['SESSID'])){
-            $response->cookie('SESSID',md5(rand(111111, 999999)));
-        }
         //输出最后的环境
         $response->end($html);
     }

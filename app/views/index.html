@@ -1,12 +1,12 @@
 <html>
 <textarea name=""  id="textarea" cols="30" rows="10"></textarea>
 <input type="button" value="提交" id="click">
-<textarea name=""  id="push" cols="30" rows="10"><?php foreach($history as $k => $v):?><?=$v."\n"?><?php endforeach;?></textarea>
+<textarea name=""  id="push" cols="30" rows="10"></textarea>
 
 
 <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/static/jquery/jquery-1.10.2.min_f2fb5194.js"></script>
 <script>
-    var ws = new WebSocket("ws://192.168.36.131:8081");
+    var ws = new WebSocket("ws://192.168.36.131:9501");
     ws.onopen = function(){ws.send("Test!"); };
     $('#click').click(function(){
         var data=$('#textarea').val();

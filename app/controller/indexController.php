@@ -9,25 +9,17 @@ namespace app\controller;
 use core\Lib\Common;
 use core\Lib\Controller;
 use core\Lib\Log;
+use core\Swoole\Network\Cookie;
 use core\Swoole\Network\Http;
 use core\Swoole\Network\Server;
+use core\Swoole\Network\Session;
 
 
 class IndexController extends Controller
 {
-    public function __construct()
+    public function index()
     {
 
-    }
-
-    public function index($request,$reponse)
-    {
-        $http=new Http($request,$reponse);
-        $http->setsession('profile',[
-            'name'=>'xiaobai',
-            'age'=>100,
-            'profile'=>'xxxx'
-        ]);
         $this->display('index.html');
     }
 
